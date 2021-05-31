@@ -17,6 +17,6 @@ app.set('views', path.join(__dirname,'views'));
       const val={'title':'my pug demo',content:con }
     res.render('demo.pug',val);
   });
-  app.listen(port,  ()=>{
-    console.log("server stareted on" + port);
-});
+//   app.listen(port,  ()=>{
+//     console.log("server stareted on" + port);
+// });
